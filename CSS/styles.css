@@ -148,6 +148,11 @@ a {
   margin-right: 100px;
 }
 
+.addressTree {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
 .wip {
   margin-left: 300px;
   margin-right: 300px;
@@ -264,6 +269,9 @@ a {
   padding: 10px;
   margin: auto;
 }
+.wip-pic{
+  border-radius: 50%;
+}
 
 .books {
   width: 50%;
@@ -303,6 +311,32 @@ a {
 }
 
 .favorites {
+  width: 50%;
+  padding: 10px;
+  margin: auto;
+}
+
+.favorite-books {
+  display: inline-block;
+}
+
+.book {
+  height: 150px;
+}
+
+.book-div{
+  float: left;
+  width: 33.33%;
+  padding: 1px:
+}
+
+.book-list{
+  width: 50%;
+  padding: 10px;
+  margin: auto;
+}
+
+.books-intro{
   width: 50%;
   padding: 10px;
   margin: auto;

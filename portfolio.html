@@ -3,19 +3,64 @@
 
 <head>
   <meta charset="utf-8">
-  <title>This page is for all of my projects</title>
+  <title>Portfolio | Ivan Morrow</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favoriteicon.ico">
 </head>
 
-<body>
-  <h2>BTC Denominated Inflation Tracker</h2>
-  <p>This is a web app I made that visualizes many things normally priced in USD or some other fiat currency in BTC to help
-    visualize the rate of inflation seen with fiat currencies compared to bitcoin.</p>
+<body style="font-family: DejaVu Sans Mono, monospace;" class="portfolio">
+  <h2>Portfolio</h2>
+  <div class="research">
+    <h4 style="color:#EC4646"><a href="https://www.nep.so/">Neptune</a></h4>
+    <p>
+      Neptune protocol is a project I joined during the <a href="https://solana.com/riptide">Solana Riptide hackathon</a>. It's a DeFi lending and borrowing protocol
+      with lots of new and unique features. Currently, the project is deployed and live on the Solana Devnet, which means the tokens in the protocol do not have any value.
+      This is a project that's under active development and our goal is to have it deployed out to Mainnet Q2 or Q3 of 2022. This is the biggest project I have been a part of myself
+      and it has been so much fun to work on.
+    </p>
+    <p>
+      At the end of the hackathon, our project actually won 3 different tracks! We won the <a href="https://twitter.com/PythNetwork/status/1514621993290805260?s=20&t=fcQytOlEEXy9OHOXoC5-JA">Pyth track</a>,
+      the <a href="https://twitter.com/switchboardxyz/status/1515043075961155587?s=20&t=fcQytOlEEXy9OHOXoC5-JA">Switchboard track</a>, and <a href="https://twitter.com/HubbleProtocol?s=20&t=fcQytOlEEXy9OHOXoC5-JA">Hubble Protocol's</a>
+      track! (Hubble didn't tweet about us unfortunately, lol)
+    </p>
+    <p>
+       Check out the full list of winners from the hackathon <a href="https://solana.com/news/riptide-hackathon-winners-solana">here</a> if you want!
+    </p>
+  </div>
+  <div class="btc-denominate">
+    <h4 style="color:#EC4646"><a href="https://github.com/Unboxed-Software/solana-course">Solana End to End Dev Course</a></h4>
+    <p>This is a complete course meant to on-board web developers to development in the Solana ecosystem. I worked with the Solana Foundation
+    on this course and it is completely open sourced. I helped write the lessons in this course and also built out the programs that are used throughout the course.
+  This was the first time I've ever tried to teach a course or write about technical topics online and I really enjoyed it.</p>
+  </div>
+  <div class="kohawk-startup-div">
+    <h4><a style="color:#EC4646" href="kohawk-startup.html">Kohawk Startup</a></h4>
+    <p class="startup-text-menu">Kohawk Startup is a 24-hour entrepreneurship and innovation event designed to infuse entrepreneurship into the Coe Experience.</p>
+  </div>
+  <br>
+  <br>
+  <div class="research">
+    <h4><a style="color:#EC4646" href="coe-physics.html">Coe College Physics Department</a></h4>
+    <p>Research focused on designing and developing a handheld neutron detector to be used for homeland security and detecting the location of nuclear weapons.</p>
+  </div>
+  <br>
+  <div class="research">
+    <h4><a style="color:#EC4646" href="https://github.com/ixmorrow/eth-tree">Eth Tree Explorer</a></h4>
+    <p>A project I'm working on to learn the basics of Web3 development. The idea is that you can enter any ERC-20 address and the web app will display
+    all of the addresses that have transacted with this node within the last 1,000 blocks and all of the addresses that those nodes have trasnacted with, so on and so forth. I am
+  using the Web3.js javascript library to make this.</p>
+  </div>
 
-  <h2><a href="kohawk-startup.html">Kohawk Startup</a></h2>
-  <p>Startup competition I competed in on Team Nodey</p>
-
-  <h2><a href="coe-physics.html">Coe College Physics Department</a></h2>
-  <p>Research focused on designing and developing a handheld neutron detector to be used for homeland security and detecting the location of nuclear weapons.</p>
+  <nav class="navbar">
+    <ul class="nav-list">
+      <li><a class="nav-item" href="index.html">Home</a></li>
+      <li><a class="nav-item" href="miscellaneous.html">Miscellaneous</a></li>
+      <li><a class="nav-item" href="portfolio.html">Portfolio</a></li>
+      <li><a class="nav-item" href="wip.html">WIP</a></li>
+      <li><a class="nav-item" href="Docs/ivan-morrow-resume.pdf">Resume</a></li>
+    </ul>
+    <p style="text-align: center">© 2021 Ivan Morrow.</p>
+  </nav>
 </body>
 
 </html>
